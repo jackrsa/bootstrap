@@ -1,0 +1,24 @@
+/* Para Desktop Grande*/
+@media(min-width: 1200px){
+	body {
+		color: black;
+	}
+}
+/* Para Desktop pequeño */
+@media(min-width: 992px) and (max-width: 1199px){
+	body {
+		color: black;
+	}
+}
+/* Para Tablet */
+@media(min-width: 768px) and (max-width: 991px){
+	body {
+		color: blue;
+	}
+}
+/* Para Phone */
+@media(max-width: 767px){
+	body {
+		color: orange;
+	}
+}
